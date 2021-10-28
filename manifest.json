@@ -1,0 +1,39 @@
+{
+  "online": {
+    "processes": [
+      {
+        "name": "streamlit_sample",
+        "algorithmName": "main",
+        "namespace": "",
+        "algorithmTitle": {
+          "pt-br": "Streamlit",
+          "en-US": "Streamlit"
+        },
+        "algorithmDescription": {
+          "pt-br": "Streamlit",
+          "en-US": "Streamlit"
+        },
+        "instanceProperties": {
+          "profile": "",
+          "properties": {
+            "dockerName": "streamlit_sample",
+            "instanceType": "c1.small"
+          },
+          "environments": {
+          }
+        }
+      }
+    ]
+  },
+  "docker": [
+    {
+      "dockerName": "streamlit_sample",
+      "dockerTag": "1.0.0",
+      "gitBranch": "main",
+      "gitPath": "/",
+      "instanceType": "c1.nano",
+      "gitDockerfileName": "Dockerfile", 
+      "gitRepoUrl": "https://github.com/felipebmendes/streamlit"
+    }
+  ]
+}
