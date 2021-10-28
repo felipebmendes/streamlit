@@ -29,7 +29,7 @@
     {
       "dockerName": "streamlit_sample",
       "dockerTag": "1.0.0",
-      "gitBranch": "main",
+      "gitBranch": "master",
       "gitPath": "/",
       "instanceType": "c1.nano",
       "gitDockerfileName": "Dockerfile", 
